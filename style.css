@@ -1,11 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: grey;
+}
+
 body {
     background-color: lightgrey;
 }
-
-.menu {
-    color: crimson;
+h1 {
+    text-align: center;
 }
-li {
-    color: crimson;
-    background-color: grey
+.container {
+    background-color: green;
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    align-items: space-around; 
+    align-content: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+}
+.portrait {
+    background-color: rgb(105, 31, 46);
+    color: white;
+    height: 500px;
+    width: 200px;
 }
